@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+   <LinearLayout android:id="@+id/nav"
+       android:layout_width="fill_parent"
+       android:layout_height="50dp"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true" >
+          <Button
+       android:id="@+id/add_book"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/add_book" 
+       android:layout_gravity="left"
+       />
+          <Button
+       android:id="@+id/weibo_auth"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:layout_marginLeft="160dp"
+       android:text="@string/weibo_auth" />
+   </LinearLayout>
+   <Gallery
+       android:id="@+id/books"
+       android:layout_width="fill_parent"
+       android:layout_height="200dp"
+       android:layout_below="@+id/nav"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="false"
+       android:background="#e3e3e3"
+       android:spacing="5dp" />
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="35dp"
+       android:layout_alignParentLeft="true" >
+
+       <Button
+           android:id="@+id/change_info"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="39dp"
+           android:layout_marginTop="36dp"
+           android:text="@string/change_info" />
+
+       <Button
+           android:id="@+id/change_request"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/change_info"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="39dp"
+           android:text="@string/change_request" />
+
+       <Button
+           android:id="@+id/my_book"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/change_info"
+           android:layout_marginLeft="39dp"
+           android:layout_marginTop="39dp"
+           android:text="@string/my_shelf" />
+
+       <Button
+           android:id="@+id/history"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/my_book"
+           android:layout_alignParentRight="true"
+           android:layout_below="@+id/change_request"
+           android:layout_marginRight="39dp"
+           android:text="@string/change_history" />
+   </RelativeLayout>
+
+
+
+</RelativeLayout>

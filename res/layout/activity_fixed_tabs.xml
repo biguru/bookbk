@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/big.guru.book"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	 <big.guru.book.widget.ActionBar
+	     android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        />
+    <big.guru.book.widget.FixedTabsView
+        android:layout_below="@+id/actionbar"
+        android:id="@+id/fixed_tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fixed_tabs" 
+       
+        />
+	<LinearLayout  android:layout_width="fill_parent"
+	    android:orientation="horizontal"
+	    
+	    android:layout_alignParentBottom="true"
+	    android:layout_margin="0dp"
+	    android:background="#3C3C3C"
+        android:layout_height="45dip">
+	    <Button 
+	        android:id="@+id/home_btn"
+	        android:layout_weight="1"
+	        android:background="@drawable/bottom_btn_bg"
+	        android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_margin="0dp"
+        	android:padding="0dp"
+        	android:textSize="12sp"
+        	android:textColor="@drawable/bottom_btn_bg"
+        	android:text="首页"
+	        />
+	    <Button 
+	        android:id="@+id/msg_btn"
+	        android:background="@drawable/bottom_btn_bg"
+	        android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_margin="0dp"
+        	android:padding="0dp"
+        	android:textSize="12sp"
+        	android:textColor="@drawable/bottom_btn_bg"
+        	android:text="消息"
+        	android:layout_weight="1"
+	        />
+	    <Button 
+	        android:id="@+id/read_btn"
+	        android:background="@drawable/bottom_btn_bg"
+	        android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:layout_margin="0dp"
+        	android:padding="0dp"
+        	android:textSize="12sp"
+        	android:layout_weight="1"
+        	android:textColor="@drawable/bottom_btn_bg"
+        	android:text="阅读"
+	        />
+	    
+	</LinearLayout>
+</RelativeLayout>

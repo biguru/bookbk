@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<big.guru.book.widget.AnimationLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/animation_layout_sidebar"
+        android:layout_width="200dip"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+           
+        </LinearLayout>
+        <ListView
+            android:id="@+id/sidebar_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <!-- To make LinearLayout clickable to trigger onContentTouchedWhenOpening()  -->
+    <LinearLayout
+        android:id="@+id/animation_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#999999"
+        android:clickable="true"
+        android:orientation="vertical"
+        >
+        <big.guru.book.widget.ActionBar
+	     android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        />
+        <EditText
+        android:id="@+id/summary"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+       android:background="@drawable/background_view_rounded_middle"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/select_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/background_view_rounded_middle"
+        android:text="点击选择交换的书籍" />
+    <ListView android:id="@+id/selected_list"
+        android:background="@drawable/background_view_rounded_middle"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</big.guru.book.widget.AnimationLayout>

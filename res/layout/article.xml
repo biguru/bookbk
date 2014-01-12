@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/big.guru.book"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	 <big.guru.book.widget.ActionBar
+	     android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        />
+
+	 
+
+	 <ScrollView
+	     android:id="@+id/scrollView1"
+	     android:layout_width="fill_parent"
+	     android:layout_height="fill_parent"
+	     android:layout_below="@+id/actionbar"
+	     android:background="@drawable/article_back"
+	     >
+
+	    <TextView
+	     android:id="@+id/content"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:singleLine="false"
+	     android:layout_marginLeft="3dp"
+	     android:layout_marginRight="3dp"
+	     android:scrollbars="vertical"
+	     android:textAppearance="?android:attr/textAppearanceMedium" />
+	 </ScrollView>
+   	
+</RelativeLayout>

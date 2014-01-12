@@ -9,8 +9,161 @@ package big.guru.book;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dividerColor=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dividerDrawable=0x7f01000a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dividerMarginBottom=0x7f010009;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dividerMarginTop=0x7f010008;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fadeOutDelay=0x7f010000;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fadeOutDuration=0x7f010001;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int image=0x7f01000f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int lineColor=0x7f010003;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int lineColorSelected=0x7f010004;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int lineHeight=0x7f010005;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int lineHeightSelected=0x7f010006;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int outsideOffset=0x7f01000b;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitle=0x7f01000e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textColorSelected=0x7f010002;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title=0x7f01000c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int utitle=0x7f01000d;
     }
     public static final class color {
+        public static final int actionbar_background_end=0x7f05000e;
+        public static final int actionbar_background_item_pressed_end=0x7f050010;
+        public static final int actionbar_background_item_pressed_start=0x7f05000f;
+        public static final int actionbar_background_start=0x7f05000d;
+        public static final int actionbar_separator=0x7f05000b;
+        public static final int actionbar_title=0x7f05000c;
+        public static final int base_end_color_default=0x7f050013;
+        public static final int base_end_color_pressed=0x7f050015;
+        /**  ITEM BACKGROUND COLOR - STATE - DEFAULT 
+         */
+        public static final int base_start_color_default=0x7f050012;
+        /**  ITEM BACKGROUND COLOR - STATE - PRESSED 
+         */
+        public static final int base_start_color_pressed=0x7f050014;
+        public static final int btm_btn_pressed=0x7f050018;
         public static final int contents_text=0x7f050000;
         public static final int encode_view=0x7f050001;
         public static final int possible_result_points=0x7f050002;
@@ -22,7 +175,15 @@ public final class R {
          */
         public static final int result_text=0x7f050005;
         public static final int result_view=0x7f050006;
+        /**  LIST BORDER COLOR 
+         */
+        public static final int rounded_container_border=0x7f050011;
         public static final int status_text=0x7f050007;
+        /**  ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT 
+         */
+        public static final int text_color_default=0x7f050016;
+        public static final int text_color_pressed=0x7f050017;
+        public static final int text_color_selector=0x7f050019;
         public static final int transparent=0x7f050008;
         public static final int viewfinder_laser=0x7f050009;
         /**  Android standard ICS color 
@@ -30,52 +191,147 @@ public final class R {
         public static final int viewfinder_mask=0x7f05000a;
     }
     public static final class dimen {
+        public static final int actionbar_height=0x7f060003;
+        public static final int actionbar_item_height=0x7f060004;
+        public static final int actionbar_item_width=0x7f060005;
         public static final int padding_large=0x7f060002;
         public static final int padding_medium=0x7f060001;
         public static final int padding_small=0x7f060000;
     }
     public static final class drawable {
-        public static final int book=0x7f020000;
-        public static final int ic_action_search=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
+        public static final int actionbar_back_indicator=0x7f020000;
+        public static final int actionbar_background=0x7f020001;
+        public static final int actionbar_btn=0x7f020002;
+        public static final int actionbar_btn_normal=0x7f020003;
+        public static final int actionbar_btn_pressed=0x7f020004;
+        public static final int angle=0x7f020005;
+        public static final int article_back=0x7f020006;
+        public static final int background_view_rounded_bottom=0x7f020007;
+        public static final int background_view_rounded_middle=0x7f020008;
+        public static final int background_view_rounded_single=0x7f020009;
+        public static final int background_view_rounded_top=0x7f02000a;
+        public static final int book=0x7f02000b;
+        public static final int bottom_btn_bg=0x7f02000c;
+        public static final int btn_close_normal=0x7f02000d;
+        public static final int chevron=0x7f02000e;
+        public static final int chevron_default=0x7f02000f;
+        public static final int chevron_white=0x7f020010;
+        public static final int feed_bg=0x7f020011;
+        public static final int head=0x7f020012;
+        public static final int ic_action_search=0x7f020013;
+        public static final int ic_input_add=0x7f020014;
+        public static final int ic_launcher=0x7f020015;
+        public static final int ic_menu_share_holo_light=0x7f020016;
+        public static final int ic_pulltorefresh_arrow=0x7f020017;
+        public static final int ic_refresh=0x7f020018;
+        public static final int ic_refresh_inverse=0x7f020019;
+        public static final int ic_share=0x7f02001a;
+        public static final int im_money=0x7f02001b;
+        public static final int launcher_icon=0x7f02001c;
+        public static final int search_image=0x7f02001d;
+        public static final int tab_background=0x7f02001e;
+        public static final int tab_background_focused=0x7f02001f;
+        public static final int tab_background_normal=0x7f020020;
+        public static final int tab_background_pressed=0x7f020021;
     }
     public static final class id {
-        public static final int add_book=0x7f070008;
-        public static final int author=0x7f070017;
-        public static final int back=0x7f07000f;
-        public static final int book_detail=0x7f070013;
-        public static final int book_name=0x7f070015;
-        public static final int books=0x7f07000a;
-        public static final int change_info=0x7f07000b;
-        public static final int change_request=0x7f07000c;
-        public static final int cover=0x7f070014;
+        public static final int actionbar=0x7f070011;
+        public static final int actionbar_actions=0x7f07000d;
+        public static final int actionbar_home=0x7f070008;
+        public static final int actionbar_home_bg=0x7f07000a;
+        public static final int actionbar_home_btn=0x7f07000b;
+        public static final int actionbar_home_is_back=0x7f07000c;
+        public static final int actionbar_home_logo=0x7f070009;
+        public static final int actionbar_item=0x7f070010;
+        public static final int actionbar_progress=0x7f07000e;
+        public static final int actionbar_title=0x7f07000f;
+        public static final int add_book=0x7f070018;
+        public static final int animation_layout=0x7f070037;
+        public static final int animation_layout_content=0x7f07003a;
+        public static final int animation_layout_sidebar=0x7f070038;
+        public static final int art_title=0x7f07002a;
+        public static final int author=0x7f070030;
+        public static final int back=0x7f070023;
+        public static final int book_detail=0x7f070027;
+        public static final int book_list=0x7f07003f;
+        public static final int book_name=0x7f07002e;
+        public static final int books=0x7f07001a;
+        public static final int change=0x7f070021;
+        public static final int change_info=0x7f07001b;
+        public static final int change_request=0x7f07001c;
+        public static final int checkBox=0x7f07004b;
+        public static final int chevron=0x7f070045;
+        public static final int content=0x7f070029;
+        public static final int cover=0x7f07002d;
         public static final int decode=0x7f070000;
         public static final int decode_failed=0x7f070001;
         public static final int decode_succeeded=0x7f070002;
-        public static final int history=0x7f07000e;
-        public static final int isbn=0x7f070012;
+        public static final int fixed_tabs=0x7f070012;
+        public static final int history=0x7f07001e;
+        public static final int home_btn=0x7f070014;
+        public static final int image=0x7f070041;
+        public static final int imageView1=0x7f07003c;
+        public static final int imageView2=0x7f07002c;
+        public static final int isbn=0x7f070026;
+        public static final int itemContainer=0x7f070040;
+        public static final int itemCount=0x7f070044;
         public static final int launch_product_query=0x7f070003;
-        public static final int menu_settings=0x7f07001d;
-        public static final int my_book=0x7f07000d;
-        public static final int nav=0x7f070007;
-        public static final int preview_view=0x7f07001a;
-        public static final int price=0x7f070019;
-        public static final int pubdate=0x7f070018;
-        public static final int publisher=0x7f070016;
+        public static final int menu_settings=0x7f07004c;
+        public static final int msg_btn=0x7f070015;
+        public static final int my_book=0x7f07001d;
+        public static final int nav=0x7f070017;
+        public static final int pager=0x7f070013;
+        public static final int preview_view=0x7f070033;
+        public static final int price=0x7f070032;
+        public static final int pubdate=0x7f070031;
+        public static final int publisher=0x7f07002f;
+        public static final int pull_to_refresh_header=0x7f070046;
+        public static final int pull_to_refresh_image=0x7f070048;
+        public static final int pull_to_refresh_progress=0x7f070047;
+        public static final int pull_to_refresh_text=0x7f070049;
+        public static final int pull_to_refresh_updated_at=0x7f07004a;
         public static final int quit=0x7f070004;
+        public static final int read_btn=0x7f070016;
         public static final int restart_preview=0x7f070005;
         public static final int return_scan_result=0x7f070006;
-        public static final int save=0x7f070010;
-        public static final int scan_isbn=0x7f070011;
-        public static final int status_view=0x7f07001c;
-        public static final int viewfinder_view=0x7f07001b;
-        public static final int weibo_auth=0x7f070009;
+        public static final int sale=0x7f070022;
+        public static final int save=0x7f070024;
+        public static final int scan=0x7f070020;
+        public static final int scan_isbn=0x7f070025;
+        public static final int screen=0x7f070007;
+        public static final int scrollView=0x7f07001f;
+        public static final int scrollView1=0x7f070028;
+        public static final int select_btn=0x7f070036;
+        public static final int selected_list=0x7f07003b;
+        public static final int sidebar_list=0x7f070039;
+        public static final int status_view=0x7f070035;
+        public static final int subtitle=0x7f070043;
+        public static final int summary=0x7f07002b;
+        public static final int textView1=0x7f07003d;
+        public static final int textView2=0x7f07003e;
+        public static final int title=0x7f070042;
+        public static final int viewfinder_view=0x7f070034;
+        public static final int weibo_auth=0x7f070019;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int add_book=0x7f030001;
-        public static final int book=0x7f030002;
-        public static final int capture=0x7f030003;
+        public static final int actionbar=0x7f030000;
+        public static final int actionbar_item=0x7f030001;
+        public static final int activity_fixed_tabs=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int add_actions=0x7f030004;
+        public static final int add_book=0x7f030005;
+        public static final int article=0x7f030006;
+        public static final int article_item=0x7f030007;
+        public static final int article_list=0x7f030008;
+        public static final int book=0x7f030009;
+        public static final int capture=0x7f03000a;
+        public static final int edit_book=0x7f03000b;
+        public static final int exchange_edit=0x7f03000c;
+        public static final int feed_item=0x7f03000d;
+        public static final int list_item_single=0x7f03000e;
+        public static final int pull_to_refresh_header=0x7f03000f;
+        public static final int select_item=0x7f030010;
+        public static final int tab_fixed=0x7f030011;
     }
     public static final class menu {
         public static final int activity_main=0x7f0a0000;
@@ -96,6 +352,10 @@ public final class R {
         public static final int menu_settings=0x7f080001;
         public static final int msg_default_status=0x7f080010;
         public static final int my_shelf=0x7f080005;
+        public static final int pull_to_refresh_pull_label=0x7f080011;
+        public static final int pull_to_refresh_refreshing_label=0x7f080013;
+        public static final int pull_to_refresh_release_label=0x7f080012;
+        public static final int pull_to_refresh_tap_label=0x7f080014;
         public static final int save=0x7f080008;
         public static final int scan_isbn=0x7f08000b;
         public static final int title_activity_main=0x7f080002;
@@ -103,6 +363,321 @@ public final class R {
         public static final int write_isbn=0x7f08000c;
     }
     public static final class style {
+        public static final int ActionBar=0x7f090001;
+        public static final int ActionBarHomeItem=0x7f090003;
+        public static final int ActionBarHomeLogo=0x7f090004;
+        public static final int ActionBarItem=0x7f090002;
+        public static final int ActionBarProgressBar=0x7f090005;
         public static final int AppTheme=0x7f090000;
+        public static final int content_page_large_count_text=0x7f09000a;
+        /**  TEXT 
+         */
+        public static final int content_page_large_text=0x7f090008;
+        public static final int content_page_small_text=0x7f090009;
+        public static final int list_item_chevron=0x7f090007;
+        public static final int list_item_single=0x7f090006;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a ActionBar.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionBar_title big.guru.book:title}</code></td><td></td></tr>
+           </table>
+           @see #ActionBar_title
+         */
+        public static final int[] ActionBar = {
+            0x7f01000c
+        };
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#title}
+          attribute's value can be found in the {@link #ActionBar} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:title
+        */
+        public static final int ActionBar_title = 0;
+        /** Attributes that can be used with a UIButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #UIButton_image big.guru.book:image}</code></td><td></td></tr>
+           <tr><td><code>{@link #UIButton_subtitle big.guru.book:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #UIButton_utitle big.guru.book:utitle}</code></td><td></td></tr>
+           </table>
+           @see #UIButton_image
+           @see #UIButton_subtitle
+           @see #UIButton_utitle
+         */
+        public static final int[] UIButton = {
+            0x7f01000d, 0x7f01000e, 0x7f01000f
+        };
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#image}
+          attribute's value can be found in the {@link #UIButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:image
+        */
+        public static final int UIButton_image = 2;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#subtitle}
+          attribute's value can be found in the {@link #UIButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:subtitle
+        */
+        public static final int UIButton_subtitle = 1;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#utitle}
+          attribute's value can be found in the {@link #UIButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:utitle
+        */
+        public static final int UIButton_utitle = 0;
+        /** Attributes that can be used with a ViewPagerExtensions.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_dividerColor big.guru.book:dividerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_dividerDrawable big.guru.book:dividerDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_dividerMarginBottom big.guru.book:dividerMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_dividerMarginTop big.guru.book:dividerMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_fadeOutDelay big.guru.book:fadeOutDelay}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_fadeOutDuration big.guru.book:fadeOutDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_lineColor big.guru.book:lineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_lineColorSelected big.guru.book:lineColorSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_lineHeight big.guru.book:lineHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_lineHeightSelected big.guru.book:lineHeightSelected}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_outsideOffset big.guru.book:outsideOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewPagerExtensions_textColorSelected big.guru.book:textColorSelected}</code></td><td></td></tr>
+           </table>
+           @see #ViewPagerExtensions_dividerColor
+           @see #ViewPagerExtensions_dividerDrawable
+           @see #ViewPagerExtensions_dividerMarginBottom
+           @see #ViewPagerExtensions_dividerMarginTop
+           @see #ViewPagerExtensions_fadeOutDelay
+           @see #ViewPagerExtensions_fadeOutDuration
+           @see #ViewPagerExtensions_lineColor
+           @see #ViewPagerExtensions_lineColorSelected
+           @see #ViewPagerExtensions_lineHeight
+           @see #ViewPagerExtensions_lineHeightSelected
+           @see #ViewPagerExtensions_outsideOffset
+           @see #ViewPagerExtensions_textColorSelected
+         */
+        public static final int[] ViewPagerExtensions = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
+        };
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#dividerColor}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:dividerColor
+        */
+        public static final int ViewPagerExtensions_dividerColor = 7;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#dividerDrawable}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:dividerDrawable
+        */
+        public static final int ViewPagerExtensions_dividerDrawable = 10;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#dividerMarginBottom}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:dividerMarginBottom
+        */
+        public static final int ViewPagerExtensions_dividerMarginBottom = 9;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#dividerMarginTop}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:dividerMarginTop
+        */
+        public static final int ViewPagerExtensions_dividerMarginTop = 8;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#fadeOutDelay}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:fadeOutDelay
+        */
+        public static final int ViewPagerExtensions_fadeOutDelay = 0;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#fadeOutDuration}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:fadeOutDuration
+        */
+        public static final int ViewPagerExtensions_fadeOutDuration = 1;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#lineColor}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:lineColor
+        */
+        public static final int ViewPagerExtensions_lineColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#lineColorSelected}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:lineColorSelected
+        */
+        public static final int ViewPagerExtensions_lineColorSelected = 4;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#lineHeight}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:lineHeight
+        */
+        public static final int ViewPagerExtensions_lineHeight = 5;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#lineHeightSelected}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:lineHeightSelected
+        */
+        public static final int ViewPagerExtensions_lineHeightSelected = 6;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#outsideOffset}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:outsideOffset
+        */
+        public static final int ViewPagerExtensions_outsideOffset = 11;
+        /**
+          <p>This symbol is the offset where the {@link big.guru.book.R.attr#textColorSelected}
+          attribute's value can be found in the {@link #ViewPagerExtensions} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:textColorSelected
+        */
+        public static final int ViewPagerExtensions_textColorSelected = 2;
+    };
 }

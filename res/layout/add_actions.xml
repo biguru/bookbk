@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+	xmlns:ui="http://schemas.android.com/apk/res/big.guru.book"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent">	
+   <big.guru.book.widget.ActionBar
+	     android:id="@+id/actionbar"
+        style="@style/ActionBar"
+        />
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/scrollView" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"		
+		android:background="#ffd3d3d3">		
+		
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"  
+		    android:layout_height="fill_parent">	
+		
+				<big.guru.book.widget.UIButton android:id="@+id/scan"
+				    android:layout_width="fill_parent"  
+				    android:layout_height="fill_parent"
+				    ui:image="@drawable/launcher_icon"
+				    android:padding="10dip"
+		    		ui:utitle="添加书籍"/>
+
+				<big.guru.book.widget.UIButton android:id="@+id/change"
+				    android:layout_width="fill_parent"  
+				    android:layout_height="fill_parent"
+		    		ui:utitle="交换书籍"
+		    		ui:image="@drawable/ic_share"
+		    		android:padding="10dip" />	
+		    		
+				<big.guru.book.widget.UIButton android:id="@+id/sale"
+				    android:layout_width="fill_parent"  
+				    android:layout_height="fill_parent"
+		    		ui:utitle="  出售书籍"
+		    		ui:image="@drawable/im_money"
+		    		android:padding="10dip"/>				    			    		
+		    		
+		</LinearLayout>
+	
+	</ScrollView>
+
+</LinearLayout> 
